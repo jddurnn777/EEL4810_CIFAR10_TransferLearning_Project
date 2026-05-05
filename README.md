@@ -73,7 +73,7 @@ Used for the Vision Transformer baseline
 
 | Model | Dataset | Test Accuracy | F1 Score | Notes |
 |---|---|---:|---:|---|
-| Baseline CNN | CIFAR-10 | 77.45% | N/A | Trained from scratch |
+| Baseline CNN | CIFAR-10 | 79.96% | N/A | Trained from scratch |
 | Frozen ResNet-18 | CIFAR-10 | 77.45% | N/A | Used as a feature extractor with frozen layers |
 | Fine-Tuned ResNet-18 | CIFAR-10 | **94.47%** | **0.94** | Best-performing CNN model |
 | Vision Transformer | MNIST | **99.20%** | **0.99** | Trained on MNIST due to CIFAR-10 loading/debugging issues |
